@@ -1,5 +1,3 @@
-local TheMimicScript = {}
-
-function TheMimicScript.New (TestTime)
-    warn(TestTime)
+function Test ()
+    warn("A")
 end

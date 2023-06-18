@@ -1,6 +1,6 @@
 local Gets = {
-    ["SimpleHacks"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/Simple-Hacks/UI/main/Ui.lua?token=GHSAT0AAAAAACEBT6NUNPFGWCI3XPAEAHIUZEONXEQ"))(),
-    ["The mimic"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/Simple-Hacks/UI/main/The%20Mimic.lua?token=GHSAT0AAAAAACEBT6NUJEV5UN542DBBZCXQZEON5XA"))()
+    ["SimpleHacks"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/Simple-Hacks/UI/main/Ui.lua"))(),
+    ["The mimic"] = loadstring(game:HttpGet("https://raw.githubusercontent.com/Simple-Hacks/UI/main/The%20Mimic.lua"))()
 }
 
 local GUI = Gets["SimpleHacks"]:Create{
