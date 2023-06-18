@@ -1,9 +1,13 @@
-return {
+local TheMimicScript = {}
+TheMimicScript.__index = TheMimicScript
 
- ["Start"] = function()
+function TheMimicScript.New (TestValue: number)
+    local self = setmetatable({},TheMimicScript)
 
-    warn("a")
+    self.TestValue = TestValue
+    warn(self.TestValue)
 
- end
+    return self
+end
 
-}
+return TheMimicScript
