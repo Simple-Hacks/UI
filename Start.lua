@@ -17,6 +17,6 @@ Tab:Button{
 	Name = "The mimic Script",
 	Description = nil,
 	Callback = function()
-        Gets["The mimic"].New(10)
+        Gets["The mimic"].Test()
     end
 }

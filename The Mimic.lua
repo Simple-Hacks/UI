@@ -1,3 +1,3 @@
-function Test ()
-    warn("A")
+return function ()
+    warn("Penis")
 end
